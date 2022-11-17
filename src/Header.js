@@ -13,8 +13,6 @@ import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { useStateValue } from './SateProvider';
 
-
-
 function Header() {
     const [ { user}, dispatch] = useStateValue();
 
