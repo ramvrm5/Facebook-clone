@@ -16,7 +16,6 @@ import { useStateValue } from './SateProvider';
 function Header() {
     const [ { user}, dispatch] = useStateValue();
 
-
     return (
         <div className='header'>
             <div className="header__left">
